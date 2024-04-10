@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  aback:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: MapMyWorld
+    restart: always
+    ports:
+      - 80:80
+    environment:
+      FLASK_APP: "run.py"
+      FLASK_ENV: pro
+      ALLOWED_ORIGINS: "*"
+      SWAGGER_URL: "http://localhost/swagger"
+      PORT: 80

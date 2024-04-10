@@ -1,0 +1,10 @@
+env/
+*__pycache__*
+
+logs
+# dependencies
+/node_modules
+package-lock.json
+yarn.lock
+*.csv
+*.xls
