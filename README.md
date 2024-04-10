@@ -33,8 +33,8 @@ Map My World es una API RESTful diseñada para potenciar una aplicación interac
 Descripción de los pasos necesarios para instalar y ejecutar la API en un entorno local o de producción.
 
 ```sh
-git clone https://github.com/tu-usuario/map-my-world.git
-cd map-my-world
+git clone https://github.com/d45h2147/MapyWolrd.git
+cd MapyWolrd
 docker compose up --build
 ```
 
