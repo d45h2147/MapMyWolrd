@@ -36,7 +36,9 @@ Descripción de los pasos necesarios para instalar y ejecutar la API en un entor
 git clone https://github.com/d45h2147/MapyWolrd.git
 cd MapyWolrd
 docker compose up --build
+docker compose down
 ```
 
 ## Documentacion Swagger
 la documentacion swagger de debe buscar en http://localhost/swagger
+y remplace http://localhost:5000/api/doc/swagger.json por http://localhost/api/doc/swagger.json
