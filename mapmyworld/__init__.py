@@ -1,4 +1,3 @@
-
 from mapmyworld.app_factory import create_app
 from mapmyworld.app_config import configure_app
 import os
